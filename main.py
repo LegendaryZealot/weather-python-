@@ -13,6 +13,7 @@ def getWeather(city):
         print(weatherData['low'])
         print(weatherData['fengxiang'])
         print(weatherData['type'])
+        print(jsonData['data']['ganmao'])
     else:
         print("get weather error")
 
